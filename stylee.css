@@ -1,0 +1,67 @@
+* {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(360deg, #4f3a0d 0%, #0f0f0f 100%);
+    margin: 10%;
+  
+  
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 2.5em;
+    grid-template-rows: repeat(8, 1fr);
+}
+
+.col-span-2 {
+    grid-column: span 2;
+}
+
+.col-span-3 {
+    grid-column: span 3;
+}
+
+.col-span-4 {
+    grid-column: span 4;
+}
+
+.row-span-4 {
+    grid-row: span 4;
+}
+
+.row-span-8 {
+    grid-row: span 8;
+}
+
+
+
+.box1 {
+    display: block;
+    background-color: rgb(238, 49, 24);
+}
+
+.box2 {
+    display: block;
+    background-color: rgb(231, 158, 1);
+}
+
+.box3 {
+    display: block;
+    background-color: rgb(1, 122, 31);
+}
+
+.box4 {
+    display: block;
+    background-color: rgb(0, 209, 199);
+}
+
+.box5 {
+    display: block;
+    background-color: rgb(0, 209, 199);
+}
